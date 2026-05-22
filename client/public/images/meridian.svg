@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="mo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a9b3e"/>
+      <stop offset="55%" stop-color="#c46a2b"/>
+      <stop offset="100%" stop-color="#e8b84a"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="22" r="11" fill="url(#mo-grad)"/>
+  <path d="M38 14c2 6-2 10-8 11 1-7 4-11 8-11z" fill="#5d7a2c"/>
+  <path d="M32 32v22" stroke="#6b4226" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M32 40c-8 2-14 8-16 14" fill="none" stroke="#7a9b3e" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M32 42c8 2 14 8 16 14" fill="none" stroke="#c46a2b" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M24 48c3-4 6-5 8-5s5 1 8 5" fill="none" stroke="#e8b84a" stroke-width="2" stroke-linecap="round"/>
+</svg>

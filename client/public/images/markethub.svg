@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="mh-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a9b3e"/>
+      <stop offset="55%" stop-color="#c46a2b"/>
+      <stop offset="100%" stop-color="#e8b84a"/>
+    </linearGradient>
+  </defs>
+  <polygon points="32,8 52,20 52,44 32,56 12,44 12,20" fill="none" stroke="url(#mh-grad)" stroke-width="2.4"/>
+  <circle cx="32" cy="32" r="7" fill="url(#mh-grad)"/>
+  <circle cx="32" cy="14" r="3.2" fill="#e8b84a"/>
+  <circle cx="48" cy="24" r="3.2" fill="#c46a2b"/>
+  <circle cx="48" cy="40" r="3.2" fill="#7a9b3e"/>
+  <circle cx="32" cy="50" r="3.2" fill="#e8b84a"/>
+  <circle cx="16" cy="40" r="3.2" fill="#c46a2b"/>
+  <circle cx="16" cy="24" r="3.2" fill="#7a9b3e"/>
+  <path d="M32 25V17M44 28l4-3M44 36l4 3M32 39v8M20 36l-4 3M20 28l-4-3" fill="none" stroke="#d7b07a" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
