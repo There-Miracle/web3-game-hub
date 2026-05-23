@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="nx-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="55%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#f4c430"/>
+    </linearGradient>
+  </defs>
+  <polygon
+    points="32,4 56,18 56,46 32,60 8,46 8,18"
+    fill="none"
+    stroke="url(#nx-grad)"
+    stroke-width="3"
+  />
+  <circle cx="32" cy="32" r="6" fill="url(#nx-grad)"/>
+  <circle cx="32" cy="14" r="3.2" fill="#38bdf8"/>
+  <circle cx="48" cy="24" r="3.2" fill="#a855f7"/>
+  <circle cx="48" cy="40" r="3.2" fill="#f4c430"/>
+  <circle cx="16" cy="24" r="3.2" fill="#22c55e"/>
+  <circle cx="16" cy="40" r="3.2" fill="#ec4899"/>
+  <line x1="32" y1="26" x2="32" y2="17.2" stroke="#38bdf8" stroke-width="1.6"/>
+  <line x1="37" y1="29" x2="45.2" y2="25.2" stroke="#a855f7" stroke-width="1.6"/>
+  <line x1="37" y1="35" x2="45.2" y2="38.8" stroke="#f4c430" stroke-width="1.6"/>
+  <line x1="27" y1="29" x2="18.8" y2="25.2" stroke="#22c55e" stroke-width="1.6"/>
+  <line x1="27" y1="35" x2="18.8" y2="38.8" stroke="#ec4899" stroke-width="1.6"/>
+</svg>
