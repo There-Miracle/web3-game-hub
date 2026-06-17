@@ -1,0 +1,126 @@
+.mh-dashboard .mh-dash-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.mh-dash-card {
+  display: block;
+  text-decoration: none;
+  padding: 1.35rem 1.4rem;
+  border-radius: 18px;
+  border: 1px solid rgba(232, 184, 74, 0.18);
+  background: rgba(28, 20, 12, 0.72);
+  color: inherit;
+  min-height: 210px;
+}
+
+.mh-dash-card:hover {
+  border-color: rgba(232, 184, 74, 0.45);
+}
+
+.mh-dash-key {
+  display: inline-block;
+  font-family: WorkSans-M, sans-serif;
+  color: var(--sg-gold);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  margin-bottom: 0.65rem;
+}
+
+.mh-dash-card strong {
+  display: block;
+  font-family: Rubik-B, sans-serif;
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.mh-dash-card p {
+  color: var(--sg-text-muted);
+  margin: 0.75rem 0 1.1rem;
+  font-size: 0.92rem;
+}
+
+.mh-dash-go {
+  color: var(--sg-gold);
+  font-family: WorkSans-M, sans-serif;
+  font-size: 0.85rem;
+}
+
+.mh-dash-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.mh-dash-meta div {
+  padding: 1rem 1.2rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.mh-dash-meta span {
+  display: block;
+  color: var(--sg-text-muted);
+  font-size: 0.8rem;
+}
+
+.mh-dash-meta b {
+  color: var(--white);
+  font-size: 1.1rem;
+}
+
+.mh-dash-error {
+  color: #f87171;
+}
+
+.mh-dash-wallet,
+.mh-dash-meta {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.mh-dash-wallet div,
+.mh-dash-meta div {
+  padding: 1rem 1.2rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.mh-dash-wallet span,
+.mh-dash-meta span {
+  display: block;
+  color: var(--sg-text-muted);
+  font-size: 0.8rem;
+}
+
+.mh-dash-wallet b,
+.mh-dash-meta b {
+  color: var(--white);
+  font-size: 1.1rem;
+}
+
+.mh-dash-activity-row {
+  display: grid;
+  grid-template-columns: 120px 1fr auto;
+  gap: 0.75rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.mh-dash-activity-row strong {
+  color: var(--sg-gold);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 900px) {
+  .mh-dashboard .mh-dash-grid,
+  .mh-dash-meta,
+  .mh-dash-wallet,
+  .mh-dash-activity-row {
+    grid-template-columns: 1fr;
+  }
+}
